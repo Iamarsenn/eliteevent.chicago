@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Название компании</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Главный баннер -->
+    <header class="hero">
+        <h1>Праздники на любой вкус</h1>
+        <p>Организация мероприятий, которые запомнятся надолго</p>
+        <a href="#services" class="button">Узнать больше</a>
+    </header>
+
+    <!-- Услуги -->
+    <section id="services">
+        <h2>Наши услуги</h2>
+        <div class="service-list">
+            <div class="service">
+                <h3>Планирование</h3>
+                <p>Описание услуги.</p>
+            </div>
+            <div class="service">
+                <h3>Оформление</h3>
+                <p>Описание услуги.</p>
+            </div>
+            <!-- Добавь другие услуги -->
+        </div>
+    </section>
+
+    <!-- Галерея -->
+    <section id="gallery">
+        <h2>Наши работы</h2>
+        <div class="gallery-grid">
+            <!-- Каждое изображение как отдельный элемент -->
+            <img src="path/to/image1.jpg" alt="Фото 1">
+            <img src="path/to/image2.jpg" alt="Фото 2">
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact">
+        <h2>Свяжитесь с нами</h2>
+        <form action="submit_form.php" method="post">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="email" name="email" placeholder="Ваша почта" required>
+            <textarea name="message" placeholder="Ваше сообщение"></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Название компании. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
